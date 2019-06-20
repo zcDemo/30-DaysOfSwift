@@ -1,0 +1,363 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C824C0AF22BBB240002F1FBF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C824C0AE22BBB240002F1FBF /* AppDelegate.swift */; };
+		C824C0B122BBB240002F1FBF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C824C0B022BBB240002F1FBF /* ViewController.swift */; };
+		C824C0B422BBB240002F1FBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C824C0B222BBB240002F1FBF /* Main.storyboard */; };
+		C824C0B622BBB242002F1FBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C824C0B522BBB242002F1FBF /* Assets.xcassets */; };
+		C824C0B922BBB242002F1FBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C824C0B722BBB242002F1FBF /* LaunchScreen.storyboard */; };
+		C824C0E322BBB2BD002F1FBF /* Gaspar Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = C824C0E122BBB2A3002F1FBF /* Gaspar Regular.otf */; };
+		C824C0E422BBB2BD002F1FBF /* MFJinHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C824C0E022BBB2A3002F1FBF /* MFJinHei_Noncommercial-Regular.ttf */; };
+		C824C0E522BBB2BD002F1FBF /* MFTongXin_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C824C0E222BBB2A3002F1FBF /* MFTongXin_Noncommercial-Regular.ttf */; };
+		C824C0E622BBB2BD002F1FBF /* MFZhiHei_Noncommercial-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C824C0DF22BBB2A3002F1FBF /* MFZhiHei_Noncommercial-Regular.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C824C0AB22BBB240002F1FBF /* Project02 - customFonts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project02 - customFonts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C824C0AE22BBB240002F1FBF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C824C0B022BBB240002F1FBF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C824C0B322BBB240002F1FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C824C0B522BBB242002F1FBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C824C0B822BBB242002F1FBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C824C0BA22BBB242002F1FBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C824C0DF22BBB2A3002F1FBF /* MFZhiHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFZhiHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		C824C0E022BBB2A3002F1FBF /* MFJinHei_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFJinHei_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+		C824C0E122BBB2A3002F1FBF /* Gaspar Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gaspar Regular.otf"; sourceTree = "<group>"; };
+		C824C0E222BBB2A3002F1FBF /* MFTongXin_Noncommercial-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MFTongXin_Noncommercial-Regular.ttf"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C824C0A822BBB240002F1FBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C824C0A222BBB240002F1FBF = {
+			isa = PBXGroup;
+			children = (
+				C824C0AD22BBB240002F1FBF /* Project02 - customFonts */,
+				C824C0AC22BBB240002F1FBF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C824C0AC22BBB240002F1FBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C824C0AB22BBB240002F1FBF /* Project02 - customFonts.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C824C0AD22BBB240002F1FBF /* Project02 - customFonts */ = {
+			isa = PBXGroup;
+			children = (
+				C824C0AE22BBB240002F1FBF /* AppDelegate.swift */,
+				C824C0B022BBB240002F1FBF /* ViewController.swift */,
+				C824C0DE22BBB297002F1FBF /* Fonts */,
+				C824C0B222BBB240002F1FBF /* Main.storyboard */,
+				C824C0B522BBB242002F1FBF /* Assets.xcassets */,
+				C824C0B722BBB242002F1FBF /* LaunchScreen.storyboard */,
+				C824C0BA22BBB242002F1FBF /* Info.plist */,
+			);
+			path = "Project02 - customFonts";
+			sourceTree = "<group>";
+		};
+		C824C0DE22BBB297002F1FBF /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				C824C0E122BBB2A3002F1FBF /* Gaspar Regular.otf */,
+				C824C0E022BBB2A3002F1FBF /* MFJinHei_Noncommercial-Regular.ttf */,
+				C824C0E222BBB2A3002F1FBF /* MFTongXin_Noncommercial-Regular.ttf */,
+				C824C0DF22BBB2A3002F1FBF /* MFZhiHei_Noncommercial-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C824C0AA22BBB240002F1FBF /* Project02 - customFonts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C824C0BD22BBB242002F1FBF /* Build configuration list for PBXNativeTarget "Project02 - customFonts" */;
+			buildPhases = (
+				C824C0A722BBB240002F1FBF /* Sources */,
+				C824C0A822BBB240002F1FBF /* Frameworks */,
+				C824C0A922BBB240002F1FBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Project02 - customFonts";
+			productName = "Project02 - customFonts";
+			productReference = C824C0AB22BBB240002F1FBF /* Project02 - customFonts.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C824C0A322BBB240002F1FBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = zcdong;
+				TargetAttributes = {
+					C824C0AA22BBB240002F1FBF = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = C824C0A622BBB240002F1FBF /* Build configuration list for PBXProject "Project02 - customFonts" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C824C0A222BBB240002F1FBF;
+			productRefGroup = C824C0AC22BBB240002F1FBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C824C0AA22BBB240002F1FBF /* Project02 - customFonts */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C824C0A922BBB240002F1FBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C824C0E322BBB2BD002F1FBF /* Gaspar Regular.otf in Resources */,
+				C824C0E422BBB2BD002F1FBF /* MFJinHei_Noncommercial-Regular.ttf in Resources */,
+				C824C0E522BBB2BD002F1FBF /* MFTongXin_Noncommercial-Regular.ttf in Resources */,
+				C824C0E622BBB2BD002F1FBF /* MFZhiHei_Noncommercial-Regular.ttf in Resources */,
+				C824C0B922BBB242002F1FBF /* LaunchScreen.storyboard in Resources */,
+				C824C0B622BBB242002F1FBF /* Assets.xcassets in Resources */,
+				C824C0B422BBB240002F1FBF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C824C0A722BBB240002F1FBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C824C0B122BBB240002F1FBF /* ViewController.swift in Sources */,
+				C824C0AF22BBB240002F1FBF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C824C0B222BBB240002F1FBF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C824C0B322BBB240002F1FBF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C824C0B722BBB242002F1FBF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C824C0B822BBB242002F1FBF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C824C0BB22BBB242002F1FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C824C0BC22BBB242002F1FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C824C0BE22BBB242002F1FBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project02 - customFonts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zc.Project02---customFonts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C824C0BF22BBB242002F1FBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Project02 - customFonts/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "zc.Project02---customFonts";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C824C0A622BBB240002F1FBF /* Build configuration list for PBXProject "Project02 - customFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C824C0BB22BBB242002F1FBF /* Debug */,
+				C824C0BC22BBB242002F1FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C824C0BD22BBB242002F1FBF /* Build configuration list for PBXNativeTarget "Project02 - customFonts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C824C0BE22BBB242002F1FBF /* Debug */,
+				C824C0BF22BBB242002F1FBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C824C0A322BBB240002F1FBF /* Project object */;
+}
