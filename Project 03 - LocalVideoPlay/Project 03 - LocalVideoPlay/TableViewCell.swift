@@ -12,7 +12,6 @@ class TableViewCell: UITableViewCell {
     
     @IBOutlet weak var bgImageView: UIImageView!
     @IBOutlet weak var videoTitleLabel: UILabel!
-
     @IBOutlet weak var playButton: UIButton!
     
     override func awakeFromNib() {

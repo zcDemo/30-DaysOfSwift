@@ -50,9 +50,7 @@ class ViewController: UIViewController {
     
     @objc func playButtonAction() {
         let path = Bundle.main.path(forResource: "emoji zone", ofType: "mp4")
-        
         playerView = AVPlayer(url: URL(fileURLWithPath: path!))
-        
         playViewController.player = playerView
         
         // 知识点：尾随闭包
