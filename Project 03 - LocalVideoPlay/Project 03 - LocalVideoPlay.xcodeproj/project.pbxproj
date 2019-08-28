@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C81B128422D9CA4B00AB910F /* PRED.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C81B128322D9CA4B00AB910F /* PRED.mp4 */; };
 		C85F166E22C1006600ACF58D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85F166D22C1006600ACF58D /* AppDelegate.swift */; };
 		C85F167022C1006600ACF58D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85F166F22C1006600ACF58D /* ViewController.swift */; };
 		C85F167322C1006600ACF58D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C85F167122C1006600ACF58D /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C81B128322D9CA4B00AB910F /* PRED.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = PRED.mp4; sourceTree = "<group>"; };
 		C85F166A22C1006600ACF58D /* Project 03 - LocalVideoPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project 03 - LocalVideoPlay.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C85F166D22C1006600ACF58D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C85F166F22C1006600ACF58D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				C85F167F22C100B100ACF58D /* TableViewCell.swift */,
 				C85F167122C1006600ACF58D /* Main.storyboard */,
 				C85F168122C1017800ACF58D /* emoji zone.mp4 */,
+				C81B128322D9CA4B00AB910F /* PRED.mp4 */,
 				C85F167422C1006800ACF58D /* Assets.xcassets */,
 				C85F167622C1006800ACF58D /* LaunchScreen.storyboard */,
 				C85F167922C1006800ACF58D /* Info.plist */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C85F168222C1018C00ACF58D /* emoji zone.mp4 in Resources */,
+				C81B128422D9CA4B00AB910F /* PRED.mp4 in Resources */,
 				C85F167822C1006800ACF58D /* LaunchScreen.storyboard in Resources */,
 				C85F167522C1006800ACF58D /* Assets.xcassets in Resources */,
 				C85F167322C1006600ACF58D /* Main.storyboard in Resources */,

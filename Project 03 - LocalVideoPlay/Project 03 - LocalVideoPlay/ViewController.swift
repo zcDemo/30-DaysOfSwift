@@ -40,18 +40,50 @@ class ViewController: UIViewController {
               source: "Allen - 20:30")
     ]
     
+    var gradientView: UIView = UIView.init()
+    
+    
     var playViewController = AVPlayerViewController()
     var playerView = AVPlayer()
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        gradientView.frame = view.bounds
+        view.addSubview(gradientView);
+//        
+//       
+//        let fillColors = [dataSet.color(atIndex: 0).cgColor, dataSet.color(atIndex: 1).cgColor, dataSet.color(atIndex: 2).cgColor]
+//        let locations:[CGFloat] = [0.2, 0.6, 1.0]
+//        print(barRect)
+//        context.saveGState()
+//        context.clip(to: barRect)
+//        let gradient:CGGradient
+//        let colorspace:CGColorSpace
+//        colorspace = CGColorSpaceCreateDeviceRGB()
+//        
+//        gradient = CGGradient(colorsSpace: colorspace, colors: fillColors as CFArray, locations: locations)!
+//        
+//        //Vertical Gradient
+//        let startPoint:CGPoint = CGPoint(x: 0.0, y: viewPortHandler.contentBottom)
+//        let endPoint:CGPoint = CGPoint(x: 0.0, y: viewPortHandler.contentTop)
+//        
+//        context.drawLinearGradient(gradient, start: startPoint, end: endPoint, options: [])
+//        context.restoreGState()
+        
     }
     
     @objc func playButtonAction() {
-        let path = Bundle.main.path(forResource: "emoji zone", ofType: "mp4")
+        let path = Bundle.main.path(forResource: "PRED", ofType: "mp4")
+        
+        
+        
         playerView = AVPlayer(url: URL(fileURLWithPath: path!))
         playViewController.player = playerView
+        
+        
+        
         
         // 知识点：尾随闭包
         // 在使用尾随闭包时，你不用写出它的参数标签
